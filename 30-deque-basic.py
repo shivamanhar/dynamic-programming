@@ -1,0 +1,11 @@
+from collections import deque
+print(deque(['a','b','c', 1]))
+print([{'data':'a'}, {'data':'b'}])
+llist = deque('abcde')
+print(llist)
+llist.appendleft('z')
+print(llist)
+llist.popleft()
+print(llist)
+llist = llist+deque(['k'])
+print(llist)
